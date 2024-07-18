@@ -1,0 +1,16 @@
+name: Print Branches
+
+on: [push]
+
+jobs:
+  print-branches:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: List all branches
+      run: |
+        git fetch --all
+        git branch -r
