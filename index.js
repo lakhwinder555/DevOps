@@ -15,8 +15,8 @@ app.listen(port, () => {
 });
 
 // Additionally listen on port 80 for local development (make sure you have permission to use port 80 on Windows)
-const localPort = 80;
+//const localPort = 80;
 
-app.listen(localPort, '0.0.0.0', () => {
-  console.log(`Example app also listening on port ${localPort} (for local development)`);
-});
+// app.listen(localPort, '0.0.0.0', () => {
+//   console.log(`Example app also listening on port ${localPort} (for local development)`);
+// });
