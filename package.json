@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"No tests available\""
   },
   "author": "",
   "license": "ISC",
@@ -11,5 +12,5 @@
     "express": "^4.19.2"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "A basic Node.js application"
 }
